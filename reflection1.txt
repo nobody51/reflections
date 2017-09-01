@@ -1,0 +1,32 @@
+How did viewing a differece betweet two versions help you spot the bug?
+
+Identifying differences is easier when you have a reference to compare to.
+By using FC / diff, we compare the new code to the old code to make finding the bug quicker.
+Also, FC / diff allows you to only view the changes, which is especially usefull when there are over 1000 lines of code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Access to history allows immediate recall of a previous version that you know works.
+When you change code, there is a chance that the code will not work.
+Accumulating all the changes over a period of time may change the original framework of the code.
+Having previous versions allows having a reference to compare to.
+Also, we can use previous versions as a skeleton for a new project instead of starting from scratch.
+
+What do you think are the pros and cons of manually choosing when to create a commit vs having versions auto-saved?
+
+Being deliberate on when you save requires you to structure they way you work on your code. Each commit creates a version that is clear and concise to how it differentiates itself from previous versions. The flaw to this is that it is entirely human dependent, which we know to be prone to error. If the user doesn't know when to commit, the advantages of manually saving are lost.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Docs focus is to create rich-text word files seemlessly while Git is more focused on projects, which will most likely have multiple files. 
+It wouldn't make sense for Google Docs to save multiple files since text documents rarely have inter-file dependence.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows all the versions committed for the project.
+Git diff allows me to see the difference between versions.
+
+How might using version control make you more confident to make changes that could break something?
+
+Using version control makes me more confident to make changes since I can always return to a previous version if i break something.
+Unlike without, I become more wary with my changes since I'm scared to break my code and may not ever get it to run.
