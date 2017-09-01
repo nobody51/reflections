@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git allows the use of git commands within that directory.
+You do this to enable version control.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is like a platform or loading bay that allows us to see what is about to go where.
+The obejcts will only move if you commit.
+This ensures that you know exactly what you're commiting.
